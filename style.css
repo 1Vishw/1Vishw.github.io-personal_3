@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,500&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+*{
+    top: 0;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav li{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color:#60119c;
+}
+nav a:hover{
+    color:#b554ff;
+    text-decoration: underline;
+}
+nav button{
+    padding:12px 16px;
+    background-color:transparent;
+    color:#fff;
+    border: 2px solid #b554ff;
+    border-radius:8px;
+    color:#b554ff;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 85px;
+    background-color: #f0f0f0;
+    top:0;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:40px;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+span{
+    color:#b85cff;
+}
+main p{
+    margin-top:40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+main h2{
+    margin-top:40px;
+    margin-left:100px;
+}
+body{
+    background-color:#edf0f5
+}
+nav button:hover{
+    background-color:#b554ff;
+    color:#fff;
+}
+main h2 span{
+    color:#9102e3;
+}
+main button{
+    padding:12px 16px;
+    background-color:transparent;
+    color:#fff;
+    border: 2px solid #b554ff;
+    border-radius:8px;
+    color:#b554ff;
+    margin-top:60px;
+}
+main button:hover{
+    background-color:#b554ff;
+    color:#fff;
+}
+.conatact{
+    background-color:#b554ff;
+    border-radius: 10px;
+    border: 1px solid #b554ff;
+    color:#fff;
+    margin-top:40px;
+}
+main a{
+    color: #fff;
+    text-decoration: none;
+}
+main a:hover{
+    color:#afaeaf;
+    text-decoration: underline;
+}
